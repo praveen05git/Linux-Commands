@@ -1,0 +1,16 @@
+1. sudo apt-get install (software name) - intall sftwre
+2. sudo apt-get update - update a repository
+3. sudo add-apt-repository ppa:(repositoryname) - add repo
+4. sudo add-apt-repository --remove ppa:(repositoryname) -remove repo
+5. sudo apt-get remove (sftwre name) - removing sftwre
+6. To install .sh file open the file location>rit clck>open in terminal> sudo ./(filename).sh
+7.  ./  - current location
+8. Super + M - menu 
+9. Super + A - apps
+10. Super + D - desktop 
+11. sudo apt-get install python-gtk2 (for python support files)
+12. sudo apt update
+13. sudo apt install python2.7
+14. cd ~/ -change directory
+15. gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize' - dock app icon minimize
+16. gsettings reset org.gnome.shell.extensions.dash-to-dock click-action - reset dock minimize
