@@ -14,3 +14,9 @@
 14. cd ~/ -change directory
 15. gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize' - dock app icon minimize
 16. gsettings reset org.gnome.shell.extensions.dash-to-dock click-action - reset dock minimize
+17. cat /proc/cpuinfo - cpu info
+18. cat /proc/meminfo - ram info
+19. lscpu - cpu architecture info
+20. glxinfo - gpu info
+21. aticonfig --odgc - clock rate of gpu
+22. aticonfig --odgt - temp of gpu
