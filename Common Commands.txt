@@ -20,3 +20,4 @@
 20. glxinfo - gpu info
 21. aticonfig --odgc - clock rate of gpu
 22. aticonfig --odgt - temp of gpu
+23. xkill - changes cursor into x to terminate a window
